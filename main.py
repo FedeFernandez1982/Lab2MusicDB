@@ -62,7 +62,7 @@ def add_to_table():
     newAlbum.settitle(title)
     genre = input('Introduce the genre of the Album \n')
 
-    newAlbum.settitle(genre)
+    newAlbum.setgenre(genre)
 
     database.add_entry(newAlbum)
 
